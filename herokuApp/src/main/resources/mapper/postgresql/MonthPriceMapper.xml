@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace= "com.ydata.herokuApp.web.potal.mapper.MonthPriceMapper">
+    <select id="getAll" resultType="com.ydata.herokuApp.web.potal.domain.MonthPriceDto">
+        select
+          sfid,
+          terms_name__c as termsName , 
+          termloca_code__c as termlocaCode, 
+          area_code__c as areaCode, 
+          product_code__c as productCode, 
+          area_name__c as areaName, 
+          create_date_time__c as createDateTime, 
+          product_name__c as productName, 
+          price_exchg__c as priceExchg,  
+          temp_flag__c as tempFlag, 
+          ifexternalkey__c as ifKey, 
+          std_ymd__c as stdYmd,
+          terms_price__c as termsPrice, 
+          source_code__c as sourceCode, 
+          source_name__c as sourceName,
+          std_ymd_if__c as stdYmdIf,
+          create_date_time_if__c as createDateTimeIf
+        FROM lgchemfull.if_pmds_monthprice__c
+        limit 20
+    </select>
+</mapper>

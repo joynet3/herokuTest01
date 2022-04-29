@@ -1,0 +1,18 @@
+{
+	"dataid": "codegroup",
+	"datacount": "120",
+    "listdata": [
+        {"CODE_TYPE": "GC01","CODE_TYPE_NAME": "코드그룹1"},
+		{"CODE_TYPE": "GC02","CODE_TYPE_NAME": "코드그룹1"},
+		{"CODE_TYPE": "GC03","CODE_TYPE_NAME": "코드그룹1"},
+		{"CODE_TYPE": "GC04","CODE_TYPE_NAME": "코드그룹1"},
+		{"CODE_TYPE": "GC05","CODE_TYPE_NAME": "코드그룹1"},
+		{"CODE_TYPE": "GC06","CODE_TYPE_NAME": "코드그룹1"},
+		{"CODE_TYPE": "GC07","CODE_TYPE_NAME": "코드그룹1"},
+		{"CODE_TYPE": "GC08","CODE_TYPE_NAME": "코드그룹1"},
+		{"CODE_TYPE": "GC09","CODE_TYPE_NAME": "코드그룹1"},
+		{"CODE_TYPE": "GC10","CODE_TYPE_NAME": "코드그룹1"},
+		{"CODE_TYPE": "GC11","CODE_TYPE_NAME": "코드그룹1"},
+		{"CODE_TYPE": "GC12","CODE_TYPE_NAME": "코드그룹1"}
+	]
+}		
